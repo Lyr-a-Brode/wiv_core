@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace WivCoreIntTest
+namespace WivCoreIntTests
 {
     public class Tests
     {

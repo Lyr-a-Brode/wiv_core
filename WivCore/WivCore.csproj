@@ -2,49 +2,14 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>wiv_core</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+        <Protobuf Include="Protos\greet.proto" GrpcServices="Server"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Grpc.AspNetCore" Version="2.32.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Content Include="obj\Debug\net5.0\12fbc7ffe642ca7e_greet.protodep" />
-      <Content Include="obj\Debug\net5.0\apphost.exe" />
-      <Content Include="obj\Debug\net5.0\ref\wiv_core.dll" />
-      <Content Include="obj\Debug\net5.0\staticwebassets\wiv_core.StaticWebAssets.Manifest.cache" />
-      <Content Include="obj\Debug\net5.0\staticwebassets\wiv_core.StaticWebAssets.xml" />
-      <Content Include="obj\Debug\net5.0\wiv_core.AssemblyInfoInputs.cache" />
-      <Content Include="obj\Debug\net5.0\wiv_core.assets.cache" />
-      <Content Include="obj\Debug\net5.0\wiv_core.csproj.CopyComplete" />
-      <Content Include="obj\Debug\net5.0\wiv_core.csproj.CoreCompileInputs.cache" />
-      <Content Include="obj\Debug\net5.0\wiv_core.csproj.FileListAbsolute.txt" />
-      <Content Include="obj\Debug\net5.0\wiv_core.csprojAssemblyReference.cache" />
-      <Content Include="obj\Debug\net5.0\wiv_core.dll" />
-      <Content Include="obj\Debug\net5.0\wiv_core.GeneratedMSBuildEditorConfig.editorconfig" />
-      <Content Include="obj\Debug\net5.0\wiv_core.genruntimeconfig.cache" />
-      <Content Include="obj\Debug\net5.0\wiv_core.MvcApplicationPartsAssemblyInfo.cache" />
-      <Content Include="obj\Debug\net5.0\wiv_core.pdb" />
-      <Content Include="obj\Debug\net5.0\wiv_core.RazorTargetAssemblyInfo.cache" />
-      <Content Include="obj\project.assets.json" />
-      <Content Include="obj\project.nuget.cache" />
-      <Content Include="obj\project.packagespec.json" />
-      <Content Include="obj\rider.project.restore.info" />
-      <Content Include="obj\wiv_core.csproj.nuget.dgspec.json" />
-      <Content Include="obj\wiv_core.csproj.nuget.g.props" />
-      <Content Include="obj\wiv_core.csproj.nuget.g.targets" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Include="obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
-      <Compile Include="obj\Debug\net5.0\Protos\Greet.cs" />
-      <Compile Include="obj\Debug\net5.0\Protos\GreetGrpc.cs" />
-      <Compile Include="obj\Debug\net5.0\wiv_core.AssemblyInfo.cs" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.32.0"/>
     </ItemGroup>
 
 </Project>

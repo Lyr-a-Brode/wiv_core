@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "wiv_core";
+option csharp_namespace = "WivCore";
 
 package greet;
 
