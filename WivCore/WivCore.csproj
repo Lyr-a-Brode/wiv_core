@@ -5,11 +5,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\greet.proto" GrpcServices="Server"/>
+        <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Grpc.AspNetCore" Version="2.32.0"/>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.32.0" />
+        <PackageReference Include="Serilog" Version="2.10.1-dev-01265" />
+        <PackageReference Include="Serilog.AspNetCore" Version="3.4.1-dev-00188" />
     </ItemGroup>
 
 </Project>
